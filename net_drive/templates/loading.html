@@ -1,0 +1,32 @@
+<html ng-app="ionicApp">
+<link rel="stylesheet" href="{{ url_for('static', filename='font-effect/css/effect.css') }}">
+<div class="row" ng-app="ionicApp" id="spinnerDiv">
+    <div class="col-lg-6 col-lg-offset-3">
+        <p style="width:15%; margin: auto ;padding-top:10px">
+            <ion-spinner icon="ripple" style="stroke:#ff3b30;"></ion-spinner>
+        </p>
+        <br><br><br><br>
+        <p class="effect vibe" style="text-align: center; font-size:x-large;"><b>L o a d i n g . . .</b></p>
+    </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+{#<script src="../static/ionic/js/ionic.bundle.min.js"></script>#}
+<script src="{{url_for('static',filename='ionic/js/ionic.bundle.min.js')}}"></script>
+<script src="{{url_for('static',filename='font-effect/js/effect.js')}}"></script>
+<script>
+    angular.module('ionicApp', ['ionic'])
+</script>
+<script>
+    {% if file_type == 'audio'  %}
+        window.location.href = "{{ url_for('audio') }}";
+    {% elif file_type == 'video'%}
+        window.location.href = "{{ url_for('video') }}";
+    {% elif file_type == 'image'%}
+        window.location.href = "{{ url_for('image') }}";
+    {% elif file_type == 'text'%}
+        window.location.href = "{{ url_for('text') }}";
+    {% else %}
+        window.location.href = "{{ url_for('file') }}";
+    {% endif %}
+</script>
+</html>

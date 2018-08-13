@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block page_content %}
+    <br><br>
+    <form id="login" action="{{ url_for('login') }}" method="post">
+        <h1>Login</h1><br>
+        <div class="form-group">
+            <label for="username"><p style="font-size: 15px;">Username</p></label><input type="text" class="form-control"
+                                                                                        id="username" name="username"
+                                                                                        onmouseleave="input_check()">
+        </div>
+        <br><br>
+        <div class="form-group ">
+            <label for="password"><p style="font-size: 15px;" >Password</p></label><input type="password"
+                                                                                        class="form-control"
+                                                                                        id="password" name="password"
+                                                                                        onmouseleave="input_check()">
+        </div>
+        <br><br><br>
+        <p id="information" style="display:block;margin:0 auto;color: #ff3b30">&nbsp;</p>
+        <br><br>
+        <div class="form-group ">
+            <button id="submit" type="submit" class="btn btn-primary form-control"
+                    onmouseover="input_check()"><p style="font-size: 15px">
+                Login</p></button>
+        </div>
+    </form>
+    <script>
+        function input_check() {
+            if (document.getElementById('username').value == "" && document.getElementById('password').value == "") {
+                document.getElementById('information').innerHTML = "Please Enter Username And Password";
+                document.getElementById('submit').disabled = true;
+            }
+            else if (document.getElementById('password').value == "") {
+                document.getElementById('information').innerHTML = "Please Enter Password";
+                document.getElementById('submit').disabled = true;
+            } else if (document.getElementById('username').value == "") {
+                document.getElementById('information').innerHTML = "Please Enter Username";
+                document.getElementById('submit').disabled = true;
+            } else {
+                document.getElementById('information').innerHTML = "&nbsp;";
+                document.getElementById('submit').disabled = false;
+            }
+        }
+    </script>
+{% endblock %}

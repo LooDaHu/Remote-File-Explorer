@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ file_name }}</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #646464;
+        }
+
+        #the_audio {
+            height: 40%;
+            width: 50%;
+            margin: 0 auto;
+            display: block;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<audio id="the_audio" src="../static/cache/{{ file_name }}" controls="controls"></audio>
+</body>
+</html>

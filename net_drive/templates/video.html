@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ file_name }}</title>
+    <link href="{{url_for('static',filename='video-js/video-js.css')}}" rel="stylesheet" type="text/css">
+    <script src="{{url_for('static',filename='video-js/video.js')}}"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #the_video {
+            background-color: #000000;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <video id="the_video" class="video-js vjs-default-skin vjs-big-play-centered vjs" controls preload="none" width="1024px" height="768px"
+           poster="http://video-js.zencoder.com/oceans-clip.png"
+           data-setup="{}">
+        <source src="../static/cache/{{ file_name }}" type="video/mp4">
+        <source src="../static/cache/{{ file_name }}" type="video/ogg">
+        <source src="../static/cache/{{ file_name }}" type="video/webm">
+    </video>
+</div>
+</body>
+</html>
+
+
+
+
