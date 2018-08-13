@@ -1,0 +1,21 @@
+<html ng-app="ionicApp">
+<link rel="stylesheet" href="{{ url_for('static', filename='font-effect/css/effect.css') }}">
+<div class="row" ng-app="ionicApp" id="spinnerDiv">
+    <div class="col-lg-6 col-lg-offset-3">
+        <p style="width:15%; margin: auto ;padding-top:10px">
+            <ion-spinner icon="dots" style="stroke:#000000;"></ion-spinner>
+        </p>
+        <br><br><br><br>
+        <a href="../static/cache/{{ file_name }}" download="{{ file_name }}"><p class="effect vibe"
+                                                                                style="text-align: center; font-size:x-large;">
+            <b>D O W N L O A D</b></p></a>
+    </div>
+</div><!-- /.row -->
+
+{#<script src="../static/ionic/js/ionic.bundle.min.js"></script>#}
+<script src="{{ url_for('static',filename='ionic/js/ionic.bundle.min.js') }}"></script>
+<script src="{{ url_for('static',filename='font-effect/js/effect.js') }}"></script>
+<script>
+    angular.module('ionicApp', ['ionic'])
+</script>
+</html>
