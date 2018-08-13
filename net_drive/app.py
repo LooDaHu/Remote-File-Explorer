@@ -9,7 +9,7 @@ temp_path = ''
 # temp_path = ''
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
-app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+app.secret_key = 'P02r31j/3yX R~XHH!nmN]LWX/,?XT'
 
 
 @app.route('/')
@@ -109,6 +109,15 @@ def logout():
 def before_login():
     if 'username' not in session and request.endpoint != 'login':
         return redirect(url_for('login'))
+    
+    
+@app.route('/file', methods=['GET', 'POST'])
+def file():
+    global temp_path
+    file_name = drive.get_filename(temp_path)
+    drive.copy_file_to_cache(temp_path)
+    temp_path = ''
+    return render_template('file.html', file_name=file_name)
 
 
 @app.route('/test')
@@ -128,13 +137,6 @@ def get_upload():
         return 'need file'
     uploaded_file.save('static/uploaded_file/%s' % uploaded_file.filename)
     return  render_template('get-upload.html')
-
-
-def count():
-    for num in range(0, 100):
-        num = num + 1
-        time.sleep(1)
-        return num
 
 
 if __name__ == '__main__':
