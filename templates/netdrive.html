@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block page_content %}
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="/netdrive">Root</a></li>
+            {% for i in u1 %}
+                <li><a href="{{ url_for ('net_drive', path = i['path']) }}">{{ i['name'] }}</a></li>
+            {% endfor %}
+        </ol>
+        {% for i in u %}
+            {% if i['type'] == 'drive' %}
+                <a class="list-group-item" href="{{ url_for ('net_drive', path = i['path']) }}">
+                    <span class="glyphicon glyphicon-hdd" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% elif i['type'] == 'image' %}
+                <a class="list-group-item" href="{{ url_for ('loading', path = i['path'], file_type = 'image') }}" target="_blank">
+                    <span class="glyphicon glyphicon-picture" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% elif i['type'] == 'video' %}
+                <a class="list-group-item" href="{{ url_for ('loading', path = i['path'], file_type = 'video') }}" target="_blank">
+                    <span class="glyphicon glyphicon-film" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% elif i['type'] == 'audio' %}
+                <a class="list-group-item" href="{{ url_for ('loading', path = i['path'], file_type = 'audio') }}" target="_blank">
+                    <span class="glyphicon glyphicon-music" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% elif i['type'] == 'text' %}
+                <a class="list-group-item" href="{{ url_for ('loading', path = i['path'], file_type = 'text') }}" target="_blank">
+                    <span class="glyphicon glyphicon-book" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% elif i['type'] == 'file' %}
+                <a class="list-group-item" href="{{ url_for ('loading', path = i['path'], file_type = 'file') }}" target="_blank">
+                    <span class="glyphicon glyphicon-file" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% else %}
+                <a class="list-group-item" href="{{ url_for ('net_drive', path = i['path']) }}"
+                   style="text-align: left">
+                    <span class="glyphicon glyphicon-folder-open" style="float: left"></span>
+                    <p style="display: inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i['name'] }}</p>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <br>
+    <div class="btn-block">
+        <button type="button" class="btn btn-default btn-danger col-xs-3" onclick="logout()">
+            <b>Log Out</b>
+            <span class="glyphicon glyphicon-off" style="float: left" ></span>
+        </button>
+        <p class="col-xs-1"></p>
+        <button type="button" class="btn btn-default btn-success col-xs-4" onclick="back_to_home()">
+            <b>Back To Home</b>
+            <span class="glyphicon glyphicon-arrow-up" style="float: left"></span>
+        </button>
+        <p class="col-xs-1"></p>
+        <button type="button" class="btn btn-default btn-primary col-xs-3" onclick="go_return()">
+            <b>Return</b>
+            <span class="glyphicon glyphicon-arrow-left" style="float: left"></span>
+        </button>
+    </div>
+    <br><br><br><br>
+    <script>
+        function logout() {
+            window.location.href = "{{ url_for('logout') }}"
+        }
+        function back_to_home() {
+            window.location.href = "{{ url_for('index') }}"
+        }
+
+        function go_return() {
+            window.history.back(-1)
+        }
+    </script>
+{% endblock %}
+
+
+
+
