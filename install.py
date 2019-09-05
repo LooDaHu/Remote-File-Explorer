@@ -19,6 +19,7 @@ def set_venv_dir():
 
 def set_pyvenv_cfg():
     pyvenv_path = os.path.join(sys.path[0], "venv") + "\\pyvenv.cfg"
+    # DO NOT RUN THIS SCRIPT AT IDE ENVIRONMENT, IT MAY CAUSE UNPREDICTABLE PROBLEM.
     python_install_path = sys.path[4]
     python_version = sys.version.split(" ")[0]
     file_data = "home = " + python_install_path + \
