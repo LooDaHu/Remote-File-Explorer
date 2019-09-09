@@ -39,7 +39,11 @@ B --> A
  ![enter image description here](https://lh3.googleusercontent.com/jRqj5eXxOg1A7dwdIgicgJvsARW4ay26C1EN5BxY9Y69ECDvIaitCuehgl3dUCczlGg3Fljk-qrg)
  
  5. Let's have a look on some different pages for different types of files.
- ## 
+	### 1. PDF file
+	![enter image description here](https://lh3.googleusercontent.com/0rk4osu7L76_1o5tR9pp5-Rp_vN9fZuB-6kdZLGsIxfBzwH5dfYFR1BtMkndFEFYSBwof13XFN25)
+
+	### 2. Picture file
+
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -175,6 +179,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2NDcxOTI5LDEzOTk4NDUwMTUsLTMzOT
-QxOTk2NiwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbLTIwMjYwOTM1NjksMTM5OTg0NTAxNSwtMz
+M5NDE5OTY2LC05MzA0NDI0NzFdfQ==
 -->
