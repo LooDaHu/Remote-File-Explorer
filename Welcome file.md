@@ -28,6 +28,7 @@ B --> A
  # How To Use It
  1. Open up your browser.
  2. Let's recall what is the IP address and port of our running application. Yes, you can see it is http://192.168.64.1:8000 in this case. And let's go for it. 
+ 3. Now, we can 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -163,5 +164,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTQxOTk2NiwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbLTE4ODA2MTY4NzksLTMzOTQxOTk2NiwtOT
+MwNDQyNDcxXX0=
 -->
