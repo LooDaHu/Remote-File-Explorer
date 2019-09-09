@@ -15,7 +15,8 @@ B --> A
 ## System Requirement
 1. ANY version of Windows10
 2. Python3.6 or higher
-## 
+## Install
+ 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -151,5 +152,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzY5MTQxOCwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbLTE0OTcxNTcyMzUsLTkzMDQ0MjQ3MV19
 -->
