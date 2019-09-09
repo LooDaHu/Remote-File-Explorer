@@ -18,6 +18,8 @@ B --> A
 ## 2. Install
 1. Open CMD.
 2. Run command 
+> python install.py
+3. Now, Installation has done.
 
 ## 3. Start Up
  
@@ -156,5 +158,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzk3Mjg2MSwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbMTk4MDIxNzIyNiwtOTMwNDQyNDcxXX0=
 -->
