@@ -3,7 +3,7 @@
 Hi! This web application can help you access your personal computer at your mobile devices. 
 
 
-# How it works
+# How It Works
 ```mermaid
 graph LR
 A[Mobile devices, Client] --> B((Internet or LAN))
@@ -11,7 +11,7 @@ B --> D{This web application, Server}
 D --> B
 B --> A
 ```
-# How to use it
+# How To Set Up
 ## 1. System Requirement
 1. ANY version of Windows10
 2. Python3.6 or higher
@@ -25,6 +25,7 @@ B --> A
 1. Just double click start_up.bat, then enjoy.
 ![enter image description here](https://lh3.googleusercontent.com/VM3gdovtOVPogro8cPGqaqftVdtloAyqIni66KxLx4TbJEwzwB02ea_mtvqE-HG79PKDlr6QPw4)
  
+ # Yo
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -160,5 +161,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgxMzYxMjUsLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbMTA5MDg1OTEwOSwtOTMwNDQyNDcxXX0=
 -->
