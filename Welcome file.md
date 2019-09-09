@@ -4,8 +4,12 @@ Hi! This web application can help you access your personal computer at your mobi
 
 
 # How it works
-## Network str
-
+## 1. Network structure
+```mermaid
+graph LR
+A[Client side] -- Link text --> B((Circle))
+B --> D{Rhombus}
+```
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Create files and folders
@@ -143,5 +147,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzY4OTU5MiwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbMTY3MDYwMDg0NiwtOTMwNDQyNDcxXX0=
 -->
