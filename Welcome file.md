@@ -51,6 +51,8 @@ B --> A
 	### 4. Video file
 	![enter image description here](https://lh3.googleusercontent.com/slhBgoX9uzVt5UnQghs_c01gS6i2SLKsyh78yCkJ6eRH4wnrBrKQ8_ardn59H-RTICw2BFPf3UTj)
 
+	### 5. Other file
+	When you try to open other types of files, it will start downloading automatically.
 
 ## Create files and folders
 
@@ -187,6 +189,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTEzMTE5OCwxMzk5ODQ1MDE1LC0zMz
-k0MTk5NjYsLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbLTExNzk3NzkyODYsMTM5OTg0NTAxNSwtMz
+M5NDE5OTY2LC05MzA0NDI0NzFdfQ==
 -->
