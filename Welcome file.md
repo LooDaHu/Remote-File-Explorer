@@ -25,7 +25,9 @@ B --> A
 1. Just double click start_up.bat, then enjoy.
 ![enter image description here](https://lh3.googleusercontent.com/VM3gdovtOVPogro8cPGqaqftVdtloAyqIni66KxLx4TbJEwzwB02ea_mtvqE-HG79PKDlr6QPw4)
  
- # Yo
+ # How To Use It
+ 1. Open up your browser.
+ 2. Let's recall 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -161,5 +163,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDg1OTEwOSwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbLTE1NzMxNzk1MDcsLTkzMDQ0MjQ3MV19
 -->
