@@ -20,7 +20,7 @@ B --> A
 2. Run command 
 > python install.py
 3. Now, Installation has done.
-
+![enter image description here](https://lh3.googleusercontent.com/Nwe7LqLFazBxMxu0ckEi6B0KiASMPYiPXtaTgEZ9TqtTcCHKmjSFM39Cv-8x22ErSX6wKG9kYE8)
 ## 3. Start Up
  
 ## Create files and folders
@@ -158,5 +158,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDIxNzIyNiwtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbNzgwNTgwNDAyLC05MzA0NDI0NzFdfQ==
 -->
