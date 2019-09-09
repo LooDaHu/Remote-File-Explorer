@@ -34,6 +34,8 @@ B --> A
 ![enter image description here](https://lh3.googleusercontent.com/w3RfwVpqoBTGA9clmoftyQqem4i0D1L-SJ9GrRwQbtb__Z6fUSIflH-ssZkOyup-E85qtiPPZ-Y)
  
  4. Then we can see, the home page. You can upload files in your mobile devices and go through files of your PC at remote side.
+ ![enter image description here](https://lh3.googleusercontent.com/u12z0bQctTeHgBElH5I8k3B9cBdDXlgjizzBBFjJ8zNpNatKPRYQlQH4styITVXUmev9rL9EFH_U)
+ ![enter image description here](https://lh3.googleusercontent.com/1v4t9nornw18qImbLvXG9zlMER3gpP0WiPiDVQF7MoH99PagYIZDLV0uQ9IlERkOODjZMi5Q6GsU)
  
  
  
@@ -173,6 +175,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODQyNjY2MiwtMzM5NDE5OTY2LC05Mz
+eyJoaXN0b3J5IjpbMTM5OTg0NTAxNSwtMzM5NDE5OTY2LC05Mz
 A0NDI0NzFdfQ==
 -->
