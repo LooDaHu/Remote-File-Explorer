@@ -1,6 +1,6 @@
 # Welcome to Remote File Explorer!
 
-Hi! This pro
+Hi! This web application can help you access your personal computer at your mobile devices. 
 
 
 # Files
@@ -142,5 +142,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbLTEzMjI5MTg2MTcsLTkzMDQ0MjQ3MV19
 -->
