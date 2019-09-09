@@ -12,10 +12,14 @@ D --> B
 B --> A
 ```
 # How to use it
-## System Requirement
+## 1. System Requirement
 1. ANY version of Windows10
 2. Python3.6 or higher
-## Install
+## 2. Install
+1. Open CMD.
+2. 
+
+## 3. Start Up
  
 ## Create files and folders
 
@@ -152,5 +156,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcxNTcyMzUsLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbLTEzNDI0NjkxMTMsLTkzMDQ0MjQ3MV19
 -->
