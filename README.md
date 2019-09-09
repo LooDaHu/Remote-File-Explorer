@@ -1,6 +1,6 @@
 # Welcome to Remote File Explorer!
 
-Hi! This web application can help you access your personal computer at your mobile devices. 
+Hi! This web application can help you access your personal computer at your mobile devices. And also, if this readme is not shown co
 
 
 # How It Works
@@ -57,5 +57,5 @@ Note: Please Don't run install.py script at IDE environment, it may casue incorr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI2NjcxNzJdfQ==
+eyJoaXN0b3J5IjpbMTk1MDIxMzU0OV19
 -->
