@@ -23,7 +23,7 @@ B --> A
 ![enter image description here](https://lh3.googleusercontent.com/Nwe7LqLFazBxMxu0ckEi6B0KiASMPYiPXtaTgEZ9TqtTcCHKmjSFM39Cv-8x22ErSX6wKG9kYE8)
 ## 3. Start Up
 1. Just double click start_up.bat, then enjoy.
-
+![enter image description here](https://lh3.googleusercontent.com/VM3gdovtOVPogro8cPGqaqftVdtloAyqIni66KxLx4TbJEwzwB02ea_mtvqE-HG79PKDlr6QPw4)
  
 ## Create files and folders
 
@@ -160,5 +160,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTE4MjE5MywtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbLTIwMzgxMzYxMjUsLTkzMDQ0MjQ3MV19
 -->
