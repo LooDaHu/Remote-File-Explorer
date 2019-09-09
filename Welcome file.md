@@ -17,7 +17,7 @@ B --> A
 2. Python3.6 or higher
 ## 2. Install
 1. Open CMD.
-2. 
+2. Run command 
 
 ## 3. Start Up
  
@@ -156,5 +156,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI0NjkxMTMsLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbMTQ1Mzk3Mjg2MSwtOTMwNDQyNDcxXX0=
 -->
