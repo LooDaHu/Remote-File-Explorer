@@ -4,14 +4,15 @@ Hi! This web application can help you access your personal computer at your mobi
 
 
 # How it works
-## 1. Network structure
 ```mermaid
 graph LR
 A[Mobile devices, Client] --> B((Internet or LAN))
-B --> D{Server}
+B --> D{This web application, Server}
+D --> B
+B --> A
 ```
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
-
+# How to use it
+## System Requir
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -147,5 +148,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODUwMTI1NywtOTMwNDQyNDcxXX0=
+eyJoaXN0b3J5IjpbMTUwNjUzMTM3MCwtOTMwNDQyNDcxXX0=
 -->
