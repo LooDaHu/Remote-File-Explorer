@@ -43,6 +43,14 @@ B --> A
 	![enter image description here](https://lh3.googleusercontent.com/0rk4osu7L76_1o5tR9pp5-Rp_vN9fZuB-6kdZLGsIxfBzwH5dfYFR1BtMkndFEFYSBwof13XFN25)
 
 	### 2. Picture file
+	![enter image description here](https://lh3.googleusercontent.com/mMp7RkNIs5AjUo2uhQxLW-P8LkbXG3fKu9bc3jpJyT3YZek8TruYcY1A_xJQIOT0AElqo9u8fyMb)
+
+	### 3. Music file
+	![enter image description here](https://lh3.googleusercontent.com/I3xCtX8dV1fQTqa462buVRnOJNpaufIl22HKcllS1zZwZ0X-0jhSqBLcrf9z4UwM-scD_MuXeY5M)
+
+	### 4. Video file
+	![enter image description here](https://lh3.googleusercontent.com/slhBgoX9uzVt5UnQghs_c01gS6i2SLKsyh78yCkJ6eRH4wnrBrKQ8_ardn59H-RTICw2BFPf3UTj)
+
 
 ## Create files and folders
 
@@ -179,6 +187,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYwOTM1NjksMTM5OTg0NTAxNSwtMz
-M5NDE5OTY2LC05MzA0NDI0NzFdfQ==
+eyJoaXN0b3J5IjpbLTk3NTEzMTE5OCwxMzk5ODQ1MDE1LC0zMz
+k0MTk5NjYsLTkzMDQ0MjQ3MV19
 -->
