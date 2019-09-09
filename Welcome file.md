@@ -3,7 +3,8 @@
 Hi! This web application can help you access your personal computer at your mobile devices. 
 
 
-# Files
+# How it works
+## Network str
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -142,5 +143,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI5MTg2MTcsLTkzMDQ0MjQ3MV19
+eyJoaXN0b3J5IjpbMTU3MzY4OTU5MiwtOTMwNDQyNDcxXX0=
 -->
