@@ -27,10 +27,15 @@ B --> A
  
  # How To Use It
  1. Open up your browser.
+ 
  2. Let's recall what is the IP address and port of our running application. Yes, you can see it is http://192.168.64.1:8000 in this case. And let's go for it. 
+ 
  3. Now, we can see the login page, let's login with our username and password.
- ![enter image description here](https://lh3.googleusercontent.com/w3RfwVpqoBTGA9clmoftyQqem4i0D1L-SJ9GrRwQbtb__Z6fUSIflH-ssZkOyup-E85qtiPPZ-Y)
- 4. Then we can see, the home page. You can upload files in 
+![enter image description here](https://lh3.googleusercontent.com/w3RfwVpqoBTGA9clmoftyQqem4i0D1L-SJ9GrRwQbtb__Z6fUSIflH-ssZkOyup-E85qtiPPZ-Y)
+ 
+ 4. Then we can see, the home page. You can upload files in your mobile devices and go through files of your PC at remote side.
+ ![enter image description here](https://lh3.googleusercontent.com/mMp7RkNIs5AjUo2uhQxLW-P8LkbXG3fKu9bc3jpJyT3YZek8TruYcY1A_xJQIOT0AElqo9u8fyMb)
+ 6. 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -166,6 +171,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjQ1NDM2OSwtMzM5NDE5OTY2LC05Mz
+eyJoaXN0b3J5IjpbLTI1NDI2NjI2MiwtMzM5NDE5OTY2LC05Mz
 A0NDI0NzFdfQ==
 -->
