@@ -36,10 +36,10 @@ B --> A
  4. Then we can see, the home page. You can upload files in your mobile devices and go through files of your PC at remote side.
  ![enter image description here](https://lh3.googleusercontent.com/u12z0bQctTeHgBElH5I8k3B9cBdDXlgjizzBBFjJ8zNpNatKPRYQlQH4styITVXUmev9rL9EFH_U)
  ![enter image description here](https://lh3.googleusercontent.com/1v4t9nornw18qImbLvXG9zlMER3gpP0WiPiDVQF7MoH99PagYIZDLV0uQ9IlERkOODjZMi5Q6GsU)
+ ![enter image description here](https://lh3.googleusercontent.com/jRqj5eXxOg1A7dwdIgicgJvsARW4ay26C1EN5BxY9Y69ECDvIaitCuehgl3dUCczlGg3Fljk-qrg)
  
- 
- 
- 6. 
+ 5. Let's have a look on some different pages for different types of files.
+ ## 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -175,6 +175,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTg0NTAxNSwtMzM5NDE5OTY2LC05Mz
-A0NDI0NzFdfQ==
+eyJoaXN0b3J5IjpbNjg2NDcxOTI5LDEzOTk4NDUwMTUsLTMzOT
+QxOTk2NiwtOTMwNDQyNDcxXX0=
 -->
