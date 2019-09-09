@@ -26,8 +26,16 @@ def set_pyvenv_cfg():
                 "\ninclude-system-site-packages = false\nversion = " + python_version + "\n"
     with open(file=pyvenv_path, mode="w", encoding="utf-8") as pyvenv_cfg:
         pyvenv_cfg.write(file_data)
+        
+def creat_cache_dir():
+    cache_path = "static/cache"
+    is_exist = os.path.exists(cache_path)
+    if not is_exist:
+        os.mkdir(cache_path)
 
 
 if __name__ == '__main__':
     set_venv_dir()
     set_pyvenv_cfg()
+    creat_cache_dir()
+    
